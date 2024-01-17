@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- card start -->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <!-- Removed mx-auto and added d-flex justify-content-center -->
+        <div class="card">
+          <br /><br />
+          <h1
+            style="
+              font-size: 30px;
+              color: black;
+              font-weight: 600;
+              margin-left: 32px;
+              margin-top: 30px;
+            "
+          >
+            Hi,
+          </h1>
+          <h2
+            style="
+              font-size: 30;
+              color: black;
+              font-weight: 600;
+              margin-left: 32px;
+            "
+          >
+            Welcome Back
+          </h2>
+          <form
+            class="d-flex me-auto flex-column align-items-center"
+            style="margin-left: 30px"
+          >
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email address"
+                style="margin-top: 5px"
+              />
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+                style="margin-top: 1px"
+              />
+            </div>
+            <div class="mb-3 form-check me-auto" style="margin-left: 15px">
+              <!-- Adjusted margin-left to 15px -->
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label
+                class="fa fa-dot-circle-o"
+                for="exampleCheck1"
+                style="margin-right: 5px; font-size: 12px"
+                >Remember me
+                <span style="margin-left: 40px; font-size: 12px"
+                  >Forgot Password?</span
+                ></label
+              >
+            </div>
+            <div class="form check" style="margin-left: 100px"></div>
+            <div class="mb-3">
+              <input
+                class="form-control 1"
+                type="text"
+                value="Login"
+                style="
+                  text-align: center;
+                  background-color: rgb(99, 99, 243);
+                  color: white;
+                "
+                disabled
+                readonly
+              />
+            </div>
+          </form>
+          <p style="margin-left: 85px; margin-top: 5px; font-size: 13px">
+            Don't have Account?
+            <span style="color: rgb(34, 170, 194)">Sing Up</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- card end -->
+
+    <script src="assets/js/bootstrap.bundel.js"></script>
+    <script src="assets/js/bootstrap.popper.js"></script>
+  </body>
+</html>
